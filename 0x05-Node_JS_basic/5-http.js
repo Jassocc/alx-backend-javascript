@@ -1,6 +1,7 @@
 // create a server for task 5
 const http = require('http');
 const fs = require('fs');
+
 const host = 'localhost';
 const port = 1245;
 
@@ -32,7 +33,7 @@ function countStudents(file) {
           }
         }
         const b = l - 1;
-        out += `Number of students: ${b}`;
+        out += `Number of students: ${b}\n`;
         for (const [k, v] of Object.entries(path)) {
           if (k !== 'field') {
             out += `Number of students in ${k}: ${v}. `;

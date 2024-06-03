@@ -1,5 +1,6 @@
 // creates a http server
 const http = require('http');
+
 const host = 'localhost';
 const port = 1245;
 const app = http.createServer((request, res) => {

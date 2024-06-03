@@ -1,6 +1,8 @@
-//server for task 7
+// server for task 7
 const exp = require('express');
+
 const fs = require('fs');
+
 const app = exp();
 const port = 1245;
 
