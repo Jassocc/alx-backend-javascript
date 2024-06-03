@@ -15,7 +15,7 @@ const countStudents = (path) => {
     for (const subj in sub) {
       if (subj) console.log(`Number of students in ${subj}: ${sub[subj].length}. List: ${sub[subj].join(', ')}`);
     }
-  } catch(error) {
+  } catch (error) {
     throw new Error('Cannot load the database');
   }
 };
