@@ -7,4 +7,4 @@ const route = exp.Router();
 route.get('/', AppController.getHomepage);
 route.get('/students', StudentsController.getAllStudents);
 route.get('/students/:major', StudentsController.getAllStudentsByMajor);
-module.exports = route
+module.exports = route;
