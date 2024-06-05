@@ -15,4 +15,7 @@ describe('calculateNumber', () => {
     assert.strictEqual(calculateNumber(1, -3.2), -2);
     assert.strictEqual(calculateNumber(-1.5, -3.7), -5);
   });
+  it('args', () => {
+    assert.strictEqual(Number.isNaN(calculateNumber(1)), true);
+    assert.strictEqual(Number.isNaN(calculateNumber()), true);
 });
