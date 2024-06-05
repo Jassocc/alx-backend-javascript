@@ -1,0 +1,17 @@
+{
+	"name": "js_unittest",
+	"version": "1.0.0",
+	"description": "Nothing",
+	"main": "0-calcul.js",
+	"scripts": {
+		"lint": "./node_modules/.bin/eslint",
+		"test": "mocha"
+	},
+	"author": "Colin Earle",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "^6.2.2",
+		"nodemon": "^2.0.2",
+		"eslint": "^6.4.0"
+	}
+}
