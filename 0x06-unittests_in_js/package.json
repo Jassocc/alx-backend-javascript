@@ -1,21 +1,21 @@
 {
-	"name": "js_unittest",
-	"version": "1.0.0",
-	"description": "Nothing",
-	"main": "0-calcul.js",
-	"scripts": {
-		"lint": "./node_modules/.bin/eslint",
-		"test": "mocha"
-	},
-	"author": "Colin Earle",
-	"license": "ISC",
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-plugin-transform-optional-chaining": "^7.0.0-beta.3",
-		"chai": "^4.4.1",
-		"eslint": "^6.4.0",
-		"mocha": "^6.2.3",
-		"nodemon": "^2.0.2",
-		"sinon": "^7.5.0"
-	}
+  "name": "js_unittest",
+  "version": "1.0.0",
+  "description": "Nothing",
+  "main": "0-calcul.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+  "test": "mocha"
+  },
+  "author": "Colin Earle",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-optional-chaining": "^7.0.0-beta.3",
+    "chai": "^4.4.1",
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.3",
+    "nodemon": "^2.0.2",
+    "sinon": "^7.5.0"
+  }
 }
