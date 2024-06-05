@@ -10,8 +10,9 @@
 	"author": "Colin Earle",
 	"license": "ISC",
 	"devDependencies": {
-		"mocha": "^6.2.2",
-		"nodemon": "^2.0.2",
-		"eslint": "^6.4.0"
+		"chai": "^4.4.1",
+		"eslint": "^6.4.0",
+		"mocha": "^6.2.3",
+		"nodemon": "^2.0.2"
 	}
 }
