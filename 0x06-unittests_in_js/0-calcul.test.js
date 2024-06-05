@@ -18,4 +18,5 @@ describe('calculateNumber', () => {
   it('args', () => {
     assert.strictEqual(Number.isNaN(calculateNumber(1)), true);
     assert.strictEqual(Number.isNaN(calculateNumber()), true);
+  });
 });
